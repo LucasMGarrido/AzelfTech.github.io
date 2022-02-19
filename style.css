@@ -80,3 +80,61 @@ strong {
 .telainicial p {
   font-size: 1.2rem;
 }
+
+/* -------------------------- SECTION 3 --------------------------*/
+
+.centralizar {
+  margin: 0 10% 20%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 1);
+  background-color: #333333;
+  max-width: 250px;
+  height: 370px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  transition: 0.7s;
+  padding: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 1px 10px 4px #00c1f2;
+}
+
+.card h3,
+p {
+  color: #f9f9f9;
+}
+
+.card h3 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.titulo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #f9f9f9;
+  font-family: "Caveat Brush", cursiva;
+}
