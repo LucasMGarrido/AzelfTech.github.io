@@ -321,6 +321,10 @@ button:hover {
     box-shadow: 0 1px 10px 1px #00c1f2;
 }
 
+.imagemform {
+    padding-left: 150px;
+  }
+
 /* -------------------------- SCROLL BAR --------------------------*/
 body::-webkit-scrollbar {
     width: 8px;
