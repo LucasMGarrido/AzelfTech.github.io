@@ -81,6 +81,44 @@ strong {
   font-size: 1.2rem;
 }
 
+/* -------------------------- SECTION 2 --------------------------*/
+.aboutus {
+  text-align: center;
+  margin: 0 10% 20%;
+  color: #f9f9f9;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+#sobre {
+  color: transparent;
+  margin-bottom: 30px;
+}
+
+.textosobre {
+  padding-left: 90px;
+}
+
+.aboutus h2 {
+  font-size: 40px;
+}
+
+.aboutus p {
+  font-size: 18px;
+}
+
+.icons {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 60px;
+}
+
+.icons p {
+  font-size: 25px;
+}
+
+
 /* -------------------------- SECTION 3 --------------------------*/
 
 .centralizar {
