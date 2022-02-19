@@ -138,3 +138,33 @@ h4 {
   color: #f9f9f9;
   font-family: "Caveat Brush", cursiva;
 }
+
+/* -------------------------- SECTION 4 --------------------------*/
+.card3 {
+  box-shadow: 0 1px 10px 1px rgba(1, 1, 1, 1);
+  background-color: #00c1f2;
+  max-width: 290px;
+  height: 190px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  transition: 0.7s;
+  padding: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.card3:hover {
+  box-shadow: 0 1px 10px 2px #f9f9f9;
+}
+
+.card3 h3 {
+  color: #212121;
+}
+
+.card3 p {
+  color: #212121;
+}
