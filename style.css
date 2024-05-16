@@ -19,17 +19,22 @@ body {
 
 /* -------------------------- SECTION 1 --------------------------*/
 
-nav {
-    z-index: 1;
-    position: fixed;
-    top: 0;
+header {
+    display: flex;
+    justify-content: space-between;
     background: rgba(29, 29, 29, 0.5);
     height: 8vh;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(10px);
+}
+
+.menu-icon,.menu-control{
+    display: none;
+}
+
+.menu{
+    max-height: 100%;
 }
 
 .logo {
@@ -75,7 +80,7 @@ a:hover {
     font-size: 3rem;
 }
 
-strong {
+.title-mark {
     color: #00c1f2;
 }
 
@@ -385,4 +390,40 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #00c1f2;
     border-radius: 20px;
+}
+
+@media (max-width: 990px) {
+
+    .menu-icon{
+        display: block;
+        position: relative;
+    }
+
+    .menu{
+        flex-direction: column;
+        flex-wrap: initial;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 85%;
+        background-color: #fff;
+        z-index: 3;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -3px 0px 11px 13px rgb(0, 0, 0, 0.4);
+        transform: translateX(-110%)  ;
+        transition: transform 0.55s ease-in-out;
+
+   }
+
+   .menu-control:checked ~ .menu{
+    transform: translateX(0);
+    }
+
+   .menu-item{
+    margin:15px;
+    padding:30px;
+    }
 }
